@@ -1,0 +1,37 @@
+.container {
+  margin: 0 auto;
+  min-height: 500px;
+  width: 900px;
+}
+.container .my-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.container .my-div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+.container .my-div .my-box-1 {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  order: 1;
+}
+.container .my-div .my-box-2 {
+  background-color: lightblue;
+  width: 200px;
+  height: 100px;
+  order: 0;
+}
+.container .my-div .my-box-3 {
+  background-color: lightblue;
+  width: 300px;
+  height: 100px;
+  order: 1;
+}
+
+/*# sourceMappingURL=variableDemo.css.map */

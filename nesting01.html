@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesting 01</title>
+
+    <link rel="stylesheet" href="./css/nesting01.css">
+   
+</head>
+<body>
+    
+<div class="container">
+
+
+    <div id="click-card" class="card-body">
+       
+        <div class="card-img">
+             <img class="product-image" src="./img/kép.jpg" alt="Product Image">             
+        </div>
+        <div class="product-title">Robotgép</div>
+        <div class="product-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, mollitia?
+        </div>
+        <div class="product-price">
+            Ára: 19,99 Euro
+        </div>
+
+    </div>
+
+   
+
+</div>
+
+<script>
+
+    const clickCard= document.getElementById('click-card');
+
+
+    clickCard.addEventListener('click',() => {
+        clickCard.style.backgroundColor = "lightblue";
+    })
+
+</script>
+
+</body>
+</html>

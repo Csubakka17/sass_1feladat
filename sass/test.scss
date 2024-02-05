@@ -1,0 +1,17 @@
+.my-div{
+    
+    .color-box{
+        background-color: lightblue;
+        height: 200px;
+    }
+
+    .border-box{
+        border: 1px solid black;
+        height: 200px;
+
+        &:hover{
+            background-color: cadetblue;
+        }
+    }
+
+}
